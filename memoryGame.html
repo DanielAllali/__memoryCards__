@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Cards</title>
+    <link rel="stylesheet" href="./memoryGame.css">
+    <link rel="shortcut icon" href="./images/pinkGem.png">
+</head>
+
+<body>
+    <div id="wrapper"></div>
+    <div id="container">
+        <div class="points">
+            <h1 id="blueP">Blue: 0</h1>
+            <h1 id="redP">Red: 0</h1>
+        </div>
+        <h1>Turn: <span id="turn">blue</span></h1>
+        <table id="board">
+            <tr id="row1">
+                <td id="td1"><img id="1" src=""></td>
+                <td id="td2"><img id="2" src=""></td>
+                <td id="td3"><img id="3" src=""></td>
+                <td id="td4"><img id="4" src=""></td>
+            </tr>
+            <tr id="row2">
+                <td id="td5"><img id="5" src=""></td>
+                <td id="td6"><img id="6" src=""></td>
+                <td id="td7"><img id="7" src=""></td>
+                <td id="td8"><img id="8" src=""></td>
+            </tr>
+            <tr id="row3">
+                <td id="td9"><img id="9" src=""></td>
+                <td id="td10"><img id="10" src=""></td>
+                <td id="td11"><img id="11" src=""></td>
+                <td id="td12"><img id="12" src=""></td>
+            </tr>
+            <tr id="row4">
+                <td id="td13"><img id="13" src=""></td>
+                <td id="td14"><img id="14" src=""></td>
+                <td id="td15"><img id="15" src=""></td>
+                <td id="td16"><img id="16" src=""></td>
+            </tr>
+        </table>
+    </div>
+    <div id="winDiv">
+        <h1><span id="player"></span> WON!!</h1>
+        <button id="anotherGameBtn">Another game!</button>
+    </div>
+    <audio src="./sounds/click.mp3" id="clickS"></audio>
+    <audio src="./sounds/win.wav" id="winS"></audio>
+    <audio src="./sounds/gameEnd.wav" id="gameEndS"></audio>
+    <script src="./memoryGame.js"></script>
+</body>
+
+</html>
